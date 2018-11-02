@@ -1,0 +1,65 @@
+{
+  "name": "angular-webpack-initial-configuration",
+  "version": "1.0.0",
+  "description": "A webpack starter for Angular",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 8080 --open",
+    "test": "karma start",
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "~5.2.5",
+    "@angular/compiler": "~5.2.5",
+    "@angular/core": "~5.2.5",
+    "@angular/forms": "~5.2.5",
+    "@angular/http": "~5.2.5",
+    "@angular/platform-browser": "~5.2.5",
+    "@angular/platform-browser-dynamic": "~5.2.5",
+    "@angular/router": "~5.2.5",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
+    "sass": "^1.0.0-beta.5.2",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.6",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.4",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.16.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.1",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "typescript": "~2.6.2",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.1",
+    "webpack-merge": "^3.0.0"
+  },
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yefry/webpack-angular-initial-configuration-2018.git"
+  },
+  "keywords": [
+    "angular",
+    "webpack",
+    "initial-configuration"
+  ],
+  "author": "Yeferson Marín <yefry1128@gmail.com> (github.com/yefry)",
+  "bugs": {
+    "url": "https://github.com/yefry/webpack-angular-initial-configuration-2018/issues"
+  },
+  "homepage": "https://github.com/yefry/webpack-angular-initial-configuration-2018#readme"
+}
